@@ -1,0 +1,10 @@
+cd Diplom_1_clean
+
+cat > .gitignore <<'EOF'
+.venv/
+.idea/
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+EOF
