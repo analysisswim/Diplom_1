@@ -1,10 +1,15 @@
-cd Diplom_1_clean
-
-cat > .gitignore <<'EOF'
+# venv / IDE
 .venv/
 .idea/
-__pycache__/
+
+# pytest / python cache
 .pytest_cache/
+__pycache__/
+*.pyc
+
+# coverage
 .coverage
 htmlcov/
-EOF
+
+# macOS
+.DS_Store
